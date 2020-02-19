@@ -13,13 +13,14 @@ header video{
 }
 .texto-video{
     position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,5%);
+    z-index: 100;
+    text-align: center;
+    width: 100%;
 }
 
-}
 .redboa-header-container {
     position: relative;
     text-align: center;
