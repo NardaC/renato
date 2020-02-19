@@ -440,7 +440,7 @@
 }
 
 .redboa-menu-fixed > ul > li {
-    margin: 20px 0;
+    margin: 15px 0;
     padding: 0 0 5px 0;
 }
 
@@ -685,6 +685,6 @@
     }
 
     .redboa-menu-fixed {
-        padding-top: 0;
+        padding-top: 3rem;
     }
 }
