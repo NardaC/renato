@@ -22,7 +22,7 @@
 
 /* =======  Google Fonts ======= */
 
-@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rambla:400,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
 /* ======= Global Properties  ======= */
 
@@ -37,7 +37,7 @@
 }
 
 body {
-    font-family: 'GothamThin';
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
@@ -48,7 +48,7 @@ body {
 }
 
 p {
-    font-family: 'GothamThin';
+    font-family: 'Quicksand';
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
@@ -105,7 +105,7 @@ h5,
 h6 {
     color: #fff;
     font-weight: 400;
-    font-family: 'GothamBold';
+    font-family: 'Quicksand';
     text-transform: uppercase;
     margin-bottom: 15px;
 }

@@ -350,7 +350,7 @@
     margin-top: 0px;
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Rambla', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #fff;
     font-weight: 400;
     line-height: 0.5em;
@@ -414,8 +414,8 @@
 }
 
 .redboa-menu-fixed ul li a {
-    font-family: 'GothamThin';
-    font-weight: 200;
+    font-family: 'Quicksand';
+    font-weight: bold;
     text-transform: uppercase;
     display: block;
     padding-right: 17px;
@@ -655,7 +655,7 @@
 
     .redboa-fixed-sidebar .logo img {
         max-width: inherit;
-        max-height: 50px;
+        max-height: 100%;
         width: auto;
     }
 
