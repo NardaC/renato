@@ -1367,6 +1367,7 @@ h4 span {
     color: #999;
     font-weight: 400;
     font-size: 15px;
+    line-height: 1.2rem;
 }
 
 .contact .form input,
@@ -1388,7 +1389,12 @@ h4 span {
 .contact .redboa-button {
     margin: 0;
 }
-
+.oxa{
+    width: 4.6rem;
+}
+.lim{
+    width: 3rem;
+}
 
 /* =======  Footer  ======= */
 
