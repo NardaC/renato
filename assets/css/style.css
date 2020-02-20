@@ -2,7 +2,7 @@
 /* =======  Google Fonts ======= */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 /* ======= Global Properties  ======= */
 
 * {
@@ -556,6 +556,12 @@ b {
     -webkit-animation-delay: .1s;
     animation-delay: .1s;
 }
+.mostrar-desktop{
+    display: block;
+}
+.ocultar-desktop{
+    display: none;
+}
 
 
 /* =======  Slider  ======= */
@@ -626,6 +632,7 @@ h4.title::after {
 
 h4 span {
     color: #9ec139;
+    font-weight: 600
 }
 
 .sub-title {
@@ -689,6 +696,7 @@ h4 span {
 
 .about h4 {
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1688,13 +1696,18 @@ footer img {
     padding: 9px 15px;
     margin: 0;}
     .texto-video h3{
-        font-size: 1rem!important;
+        font-size: 1.5rem!important;
     }
     .texto-video h6, .texto-video span {
-        font-size: .5rem!important;
+        font-size: .8rem!important;
     }
     .about{
         text-align: center;
+    }
+    .texto-video{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-30%);
     }
 }
 
@@ -1709,7 +1722,13 @@ footer img {
         font-size: 40px;
         line-height: 1.2em;
     }
-
+    .mostrar-desktop{
+        display: none;
+    }
+    .ocultar-desktop{
+        display: block;
+    }
+    
     .portfolio .filtering span {
     margin-bottom: 10px;
   }
@@ -1744,11 +1763,16 @@ footer img {
     .box-aprendiendo{
         flex-wrap: wrap;
     }
+    .texto-video{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-30%);
+    }
     .texto-video h3{
-        font-size: 1rem!important;
+        font-size: 1.5rem!important;
     }
     .texto-video h6, .texto-video span {
-        font-size: .5rem!important;
+        font-size: .8rem!important;
     }
     .about{
         text-align: center;
