@@ -1764,9 +1764,9 @@ footer img {
         flex-wrap: wrap;
     }
     .texto-video{
-        top: 30%;
+        top: 45%;
         left: 50%;
-        transform: translate(-50%,-30%);
+        transform: translate(-50%,-45%);
     }
     .texto-video h3{
         font-size: 1.5rem!important;
