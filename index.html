@@ -129,7 +129,7 @@
             </div>
         </section>
         <!-- Menus -->
-        <section id="menu" class="menus menu section-padding bg-img bg-fixed pos-re pb-120" data-overlay-dark="7" data-background="assets/img/fondo-alimentacion.png">
+        <section id="menu" class="menus menu section-padding bg-img bg-fixed pos-re pb-120" data-overlay-dark="7" data-background="assets/img/fondo_pantalla_mafrox.png">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1 mb-40 text-center">
@@ -168,7 +168,7 @@
                                     <div class="row">
                                         <div class="col-md-10 offset-md-1 mb-40 text-center box-aprendiendo">
                                             <img src="assets/img/m.png" alt="">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa qui dolorem quasi officia debitis animi obcaecati eaque quod a, itaque pariatur voluptatem quidem autem at facilis deserunt atque recusandae.</p>
+                                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa qui dolorem quasi officia debitis animi obcaecati eaque quod a, itaque pariatur voluptatem quidem autem at facilis deserunt atque recusandae.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,12 @@
                                 <div id="tab-2-content" class="cont">
                                     <div class="row">
                                         <div class="col-md-10 offset-md-1 mb-40 text-center box-aprendiendo">
-                                            <h4>aquí habra un video</h4>
+                                            <video class="w-100" width="800" height="600" autoplay muted loop  >
+                                                <source src="assets/img/video/mobile_video_cortes.mp4" type="video/mp4">
+                                                <source src="video/video.ogg" type="video/ogg">
+                                                <source src="video/video.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                        </video>
                                         </div>
                                     </div>
                                 </div>
@@ -246,72 +251,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Breakfast -->
-                                <!-- <div id="tab-5-content" class="cont">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="menu-info">
-                                                <h5>Egg Benedict <span class="price">60$</span></h5>
-                                                <p>English muffin, beef, hollandaise sauce, poached egg.</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Texas Benedict <span class="price">30$</span></h5>
-                                                <p>English muffin, short ribs, bbq sauce, poached egg.</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Rusty’s Omlette <span class="price">22$</span></h5>
-                                                <p>Mozzarella, cheddar, caramelized onion, black beans.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 offset-md-2">
-                                            <div class="menu-info">
-                                                <h5>Salmon Bagel <span class="price">30$</span></h5>
-                                                <p>Smoked salmon, cream cheese, dill, rocket, red onion.</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Breakfast Bagel <span class="price">33$</span></h5>
-                                                <p>Chocolate, marshmallow, biscuit bar</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Rusty’s Pancake <span class="price">40$</span></h5>
-                                                <p>Strawberry, white chocolate, dark chocolate, crispearls</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- Dessert -->
-                                <!-- <div id="tab-6-content" class="cont">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="menu-info">
-                                                <h5>Bourbon Pecan Pie <span class="price">67$</span></h5>
-                                                <p>Bourbon pecan stuffed pie, vanilla ice-cream</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>New York Cheesecake <span class="price">50$</span></h5>
-                                                <p>Cheesecake, strawberry & lime salad</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Rusty’s ice-cream <span class="price">32$</span></h5>
-                                                <p>Vanilla, bourbon, cookie, chocolate ice-cream</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 offset-md-2">
-                                            <div class="menu-info">
-                                                <h5>S’mores <span class="price">40$</span></h5>
-                                                <p>Chocolate chip cookies, marshmallow, chocolate</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Rocky Road <span class="price">42$</span></h5>
-                                                <p>Chocolate, marshmallow, biscuit bar</p>
-                                            </div>
-                                            <div class="menu-info">
-                                                <h5>Apple & Pear Crumble <span class="price">42$</span></h5>
-                                                <p>Caramelized pear and apple, oat crumble, vanilla ice-cream</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -323,7 +262,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1 mb-40 text-center">
-                        <!-- <h6 class="sub-title">REDBOA</h6> -->
                         <h4 class="title">Nuestros Cortes</h4>
                     </div>
                 </div>
@@ -332,19 +270,19 @@
                 <div class="row">
                     <!-- filter links -->
                     <div class="filtering text-center mb-20 col-sm-12">
-                        <span data-filter='*' class="active">Parrilleros</span>
-                        <span data-filter='.mains'>Guisos</span>
-                        <span data-filter='.salads'>Sancochados</span>
-                        <span data-filter='.breakfast'>Especiales</span>
-                        <span data-filter='.mains'>Procesados</span>
+                        <span data-filter='.parrillero' class="">Parrilleros</span>
+                        <span data-filter='.guisos'>Guisos</span>
+                        <span data-filter='.sancochados'>Sancochados</span>
+                        <span data-filter='.especiales'>Especiales</span>
+                        <span data-filter='.procesados'>Procesados</span>
                     </div>
                     <div class="clearfix"></div>
                     <!-- gallery -->
                     <div class="gallery text-center full-width">
-                        <div class="col-md-4 items mains">
+                        <div class="col-md-4 items guisos">
                            <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
                             <div class="item-img">
-                                <img src="assets/img/cortes/carne1.png" alt="image">
+                                <img src="assets/img/cortes/parrillera_1.png" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>BISTECK DE CUADRIL</h6>
@@ -357,84 +295,45 @@
                                     </div>
                                 </div>
                             </div>
-                            </a>
                         </div>
-                        <div class="col-md-4 items mains">
+                        <div class="col-md-4 items especiales">
                             <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
                              <div class="item-img">
-                                 <img src="assets/img/cortes/carne1.png" alt="image">
+                                 <img src="assets/img/cortes/parrillera_1.png" alt="image">
                                  <div class="item-img-overlay valign">
                                      <div class="overlay-info full-width vertical-center">
-                                            <h6>BISTECK DE CUADRIL</h6>
-                                            <p>Ideal para parrillas al horno y estufa.</p>
-                                            <div>
-                                                <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
-                                            </div>
+                                         <h6>BISTECK DE CUADRIL</h6>
+                                         <p>Ideal para parrillas al horno y estufa.</p>
+                                         <div>
+                                             <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                             <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                             <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                         </div>
                                      </div>
                                  </div>
                              </div>
-                             </a>
                          </div>
-                         <div class="col-md-4 items mains">
+                         <div class="col-md-4 items guisos">
                             <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
                              <div class="item-img">
-                                 <img src="assets/img/cortes/carne1.png" alt="image">
+                                 <img src="assets/img/cortes/parrillera_2.png" alt="image">
                                  <div class="item-img-overlay valign">
                                      <div class="overlay-info full-width vertical-center">
-                                            <h6>BISTECK DE CUADRIL</h6>
-                                            <p>Ideal para parrillas al horno y estufa.</p>
-                                            <div>
-                                                <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
-                                            </div>
+                                         <h6>BISTECK DE CUADRIL</h6>
+                                         <p>Ideal para parrillas al horno y estufa.</p>
+                                         <div>
+                                             <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                             <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                             <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                         </div>
                                      </div>
                                  </div>
                              </div>
-                             </a>
                          </div>
-                         <div class="col-md-4 items mains">
-                            <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
-                             <div class="item-img">
-                                 <img src="assets/img/cortes/carne1.png" alt="image">
-                                 <div class="item-img-overlay valign">
-                                     <div class="overlay-info full-width vertical-center">
-                                            <h6>BISTECK DE CUADRIL</h6>
-                                            <p>Ideal para parrillas al horno y estufa.</p>
-                                            <div>
-                                                <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
-                                            </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             </a>
-                         </div>
-                         <div class="col-md-4 items mains">
-                            <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
-                             <!-- <div class="item-img">
-                                 <img src="assets/img/cortes/carne1.png" alt="image">
-                                 <div class="item-img-overlay valign">
-                                     <div class="overlay-info full-width vertical-center">
-                                            <h6>BISTECK DE CUADRIL</h6>
-                                            <p>Ideal para parrillas al horno y estufa.</p>
-                                            <div>
-                                                <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
-                                            </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             </a> -->
-                         </div>
-                        <div class="col-md-4 items salads">
+                        <div class="col-md-4 items especiales">
                            <!-- <a href="assets/img/cortes/carne2.png" class="popimg"> -->
                             <div class="item-img">
-                                <img src="assets/img/cortes/carne2.png" alt="image">
+                                <img src="assets/img/cortes/parrillero_6.png" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                             <h6>BISTECK DE CUADRIL</h6>
@@ -447,12 +346,45 @@
                                     </div>
                                 </div>
                             </div>
-                            </a>
                         </div>
-                        <div class="col-md-4 items breakfast">
+                        <div class="col-md-4 items procesados">
+                            <!-- <a href="assets/img/cortes/carne2.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_6.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        <div class="col-md-4 items sancochados">
+                            <!-- <a href="assets/img/cortes/carne2.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_6.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        <div class="col-md-4 items procesados">
                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
                             <div class="item-img">
-                                <img src="assets/img/cortes/carne3.png" alt="image">
+                                <img src="assets/img/cortes/parrillero_3.png" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                             <h6>BISTECK DE CUADRIL</h6>
@@ -465,12 +397,62 @@
                                     </div>
                                 </div>
                             </div>
-                            </a>
                         </div>
-                        <div class="col-md-4 items mains">
-                           <!-- <a href="assets/img/cortes/carne4.png" class="popimg"> -->
+                        <div class="col-md-4 items parrillero">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_6.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-md-4 items procesados">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_7.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-md-4 items especiales">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_3.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        <div class="col-md-4 items sancochados">
+                           <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
                             <div class="item-img">
-                                <img src="assets/img/cortes/carne4.png" alt="image">
+                                <img src="assets/img/cortes/parrillera_1.png" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                             <h6>BISTECK DE CUADRIL</h6>
@@ -483,12 +465,62 @@
                                     </div>
                                 </div>
                             </div>
-                            </a>
                         </div>
-                        <div class="col-md-4 items salads">
+                        <div class="col-md-4 items parrillero">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillera_2.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        <div class="col-md-4 items guisos">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_5.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-md-4 items parrillero">
+                            <!-- <a href="assets/img/cortes/carne3.png" class="popimg"> -->
+                             <div class="item-img">
+                                 <img src="assets/img/cortes/parrillero_3.png" alt="image">
+                                 <div class="item-img-overlay valign">
+                                     <div class="overlay-info full-width vertical-center">
+                                             <h6>BISTECK DE CUADRIL</h6>
+                                             <p>Ideal para parrillas al horno y estufa.</p>
+                                             <div>
+                                                 <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
+                                                 <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                        <div class="col-md-4 items sancochados">
                            <!-- <a href="assets/img/cortes/carne5.png" class="popimg"> -->
                             <div class="item-img">
-                                <img src="assets/img/cortes/carne5.png" alt="image">
+                                <img src="assets/img/cortes/parrillero_7.png" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                             <h6>BISTECK DE CUADRIL</h6>
@@ -501,25 +533,6 @@
                                     </div>
                                 </div>
                             </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 items breakfast">
-                           <!-- <a href="assets/img/cortes/carne1.png" class="popimg"> -->
-                            <div class="item-img">
-                                <img src="assets/img/cortes/carne1.png" alt="image">
-                                <div class="item-img-overlay valign">
-                                    <div class="overlay-info full-width vertical-center">
-                                            <h6>BISTECK DE CUADRIL</h6>
-                                            <p>Ideal para parrillas al horno y estufa.</p>
-                                            <div>
-                                                <a href=""><img src="assets/img/blog/jumbo.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/metro.png" alt=""></a>
-                                                <a href=""><img src="assets/img/blog/wong.png" alt=""></a>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
                         </div>
                         <div class="clear-fix"></div>
                     </div>
@@ -528,68 +541,6 @@
                 </div>
             </div>
         </section>
-        <!-- Chef -->
-        <!-- <section class="team pt-80 pb-120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1 mb-60 text-center">
-                        <h6 class="sub-title">Executive</h6>
-                        <h4 class="title">Our Chef</h4>
-                    </div>
-                    <div class="col-md-10 offset-md-1">
-                        <div class="owl-carousel owl-theme text-center">
-                            <div class="item">
-                                <div class="team-img">
-                                    <div class="img"><img src="assets/img/chef/1.jpg" alt="img"></div>
-                                </div>
-                                <div class="infos">
-                                    <h6><span>Chef.</span> Raphael Moss</h6>
-                                    <p>Executive Head Chef</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="team-img">
-                                    <div class="img"><img src="assets/img/chef/2.jpg" alt="img"></div>
-                                </div>
-                                <div class="infos">
-                                    <h6><span>Chef.</span> Gareth Martin</h6>
-                                    <p>Executive Chef</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Testimonials -->
-        <!-- <section class="testimonials section-padding bg-img bg-fixed pos-re pb-120" data-overlay-dark="7" data-background="assets/img/banner.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-md-3 col-md-6">
-                        <div class="owl-carousel owl-theme text-center">
-                            <div class="item">
-                                <div class="client-area">
-                                    <h6>Jonathan Lee</h6> <span>California, USA</span>
-                                </div>
-                                <p>The name REDBOA, in principle, quite fully describes the restaurant's concept: red meat and red wine - what else is needed for a steakhouse!</p>
-                            </div>
-                            <div class="item">
-                                <div class="client-area">
-                                    <h6>Emma White</h6> <span>Madrid, Spain</span>
-                                </div>
-                                <p>The name REDBOA, in principle, quite fully describes the restaurant's concept: red meat and red wine - what else is needed for a steakhouse!</p>
-                            </div>
-                            <div class="item">
-                                <div class="client-area">
-                                    <h6>Drana Moss</h6> <span>Roma, Italy</span>
-                                </div>
-                                <p>The name REDBOA, in principle, quite fully describes the restaurant's concept: red meat and red wine - what else is needed for a steakhouse!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <!-- Blog -->
         <section id="blog" class="blog pt-80 pb-120">
             <div class="container">

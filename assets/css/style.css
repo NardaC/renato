@@ -45,6 +45,7 @@ a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
@@ -606,8 +607,8 @@ b {
     font-size: 30px;
     margin-bottom: 15px;
     color: #fff;
-    font-weight: 400;
-    font-family: 'GothamBold';
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -719,13 +720,16 @@ h4 span {
 .menus .tabs-icon .item .icon {
     padding: 15px;
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .menus .tabs-icon .item h6 {
-    font-size: 18px;
+    font-size: 15px;
     color: #FFF;
     margin-bottom: 0;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .menus .tabs-icon .owl-item.actived .item,
@@ -799,12 +803,13 @@ h4 span {
   overflow: hidden;
 }
 .portfolio .filtering span {
-  padding: 0 10px;
+    padding: 0 10px;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
+    color: #FFF;
 }
 .portfolio .filtering .active {
   color: #9ec139;
@@ -1007,7 +1012,7 @@ h4 span {
     font-size: 21px;
     font-weight: 400;
     color: #9ec139;
-    font-family: 'Quicksand';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
 }
 
