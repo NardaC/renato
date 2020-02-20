@@ -1596,6 +1596,9 @@ footer img {
     justify-content: space-around;
     font-size: 1.3rem
 }
+.social-box i:hover{
+    color: #9ec139
+}
 
 /* ======= Media Query  ======= */
 
