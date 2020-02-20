@@ -108,7 +108,9 @@ h6 {
 .pt-80 {
     padding-top: 80px !important;
 }
-
+.pt-6rem{
+    padding-top: 6rem !important;
+}
 
 /* margin bottom */
 
@@ -1712,6 +1714,12 @@ footer img {
         left: 50%;
         transform: translate(-50%,-30%);
     }
+    .pt-6rem{
+        padding-top: 0rem !important;
+    }
+    .ml-5{
+        margin-left: 1rem !important
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1779,5 +1787,11 @@ footer img {
     }
     .about{
         text-align: center;
+    }
+    .pt-6rem{
+        padding-top: 0rem !important;
+    }
+    .ml-5{
+        margin-left: 1rem !important
     }
 }
