@@ -1824,4 +1824,11 @@ footer img {
         margin-left: -25px;
         margin-right: -25px;
     }
+    section#menu{
+        background-position-x: center;
+    }
+    .filtering.text-center.mb-20.col-sm-12{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
