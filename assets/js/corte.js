@@ -12,65 +12,45 @@ const btn_sancochados = document.getElementById("btn-sancochados")
 const btn_especiales = document.getElementById("btn-especiales")
 const btn_procesados = document.getElementById("btn-procesados")
 
-btn_parrillero.addEventListener("click", ()=>{
- 
-     parrillero.classList.toggle("show")
-     bistecsSarten.classList.toggle("hide")
-     guisos.classList.toggle("hide")
-     sancochados.classList.toggle("hide")
-     especiales.classList.toggle("hide")
-     procesados.classList.toggle("hide")
- 
+
+btn_bistecsSarten.addEventListener("click", () => {
+    if (bistecsSarten.classList.contains("hide")) {
+        bistecsSarten.classList.add("show")
+        bistecsSarten.classList.remove("hide")
+    }
 })
-btn_bistecsSarten.addEventListener("click", ()=>{
-   
-        alert("hjskdhkjshdjk")
-    
-   })
 
-   btn_guisos.addEventListener("click", ()=>{
-   
-        parrillero.classList.toggle("hide")
-        bistecsSarten.classList.toggle("hide")
-        guisos.classList.toggle("show")
-        sancochados.classList.toggle("hide")
-        especiales.classList.toggle("hide")
-        procesados.classList.toggle("hide")
-    
-   })
+btn_parrillero.addEventListener("click", () => {
+    if (parrillero.classList.contains("hide")) {
+        parrillero.classList.add("show")
+        parrillero.classList.remove("hide")
+    }
+})
 
-   btn_sancochados.addEventListener("click", ()=>{
- 
-        parrillero.classList.toggle("hide")
-        bistecsSarten.classList.toggle("hide")
-        guisos.classList.toggle("hide")
-        sancochados.classList.toggle("show")
-        especiales.classList.toggle("hide")
-        procesados.classList.toggle("hide")
-    
-   })
+btn_guisos.addEventListener("click", () => {
+    if (guisos.classList.contains("hide")) {
+        guisos.classList.add("show")
+        guisos.classList.remove("hide")
+    }
+})
 
-   btn_especiales.addEventListener("click", ()=>{
-   
-        parrillero.classList.toggle("hide")
-        bistecsSarten.classList.toggle("hide")
-        guisos.classList.toggle("hide")
-        sancochados.classList.toggle("hide")
-        especiales.classList.toggle("show")
-        procesados.classList.toggle("hide")
-    
-   })
+btn_sancochados.addEventListener("click",()=>{
+    if(sancochados.classList.contains("hide")){
+        sancochados.classList.add("show")
+        sancochados.classList.remove("hide")
+    }
+   } )
 
-   btn_procesados.addEventListener("click", ()=>{
-   
-        parrillero.classList.toggle("hide")
-        bistecsSarten.classList.toggle("hide")
-        guisos.classList.toggle("hide")
-        sancochados.classList.toggle("hide")
-        especiales.classList.toggle("hide")
-        procesados.classList.toggle("show")
-    
-   })
+btn_especiales.addEventListener("click",()=>{
+    if(especiales.classList.contains("hide")){
+        especiales.classList.add("show")
+        especiales.classList.remove("hide")
+    }
+   } )
 
-
-
+   btn_procesados.addEventListener("click",()=>{
+    if(procesados.classList.contains("hide")){
+        procesados.classList.add("show")
+        procesados.classList.remove("hide")
+    }
+   } )
