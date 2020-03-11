@@ -1,6 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="113.332" height="86.899" viewBox="0 0 113.332 86.899">
-  <g id="Grupo_1236" data-name="Grupo 1236" transform="translate(27 -11)">
-    <text id="OX" transform="translate(-27 69)" fill="#849753" font-size="75" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">OX</tspan></text>
-    <text id="OXAPAMPA" transform="translate(30.332 92.899)" fill="#fff" font-size="21" font-family="GillSans-SemiBold, Gill Sans" font-weight="600" letter-spacing="-0.06em"><tspan x="-55.191" y="0">OXAPAMPA</tspan></text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="75" viewBox="0 0 109 75">
+  <text id="OX" transform="translate(0 58)" fill="#12b870" font-size="75" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">OX</tspan></text>
 </svg>

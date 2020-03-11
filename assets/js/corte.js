@@ -24,12 +24,7 @@ btn_parrillero.addEventListener("click", ()=>{
 })
 btn_bistecsSarten.addEventListener("click", ()=>{
    
-        parrillero.classList.toggle("hide")
-        bistecsSarten.classList.toggle("show")
-        guisos.classList.toggle("hide")
-        sancochados.classList.toggle("hide")
-        especiales.classList.toggle("hide")
-        procesados.classList.toggle("hide")
+        alert("hjskdhkjshdjk")
     
    })
 
