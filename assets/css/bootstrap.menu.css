@@ -1,7 +1,7 @@
 /* Bootstrap Menu Custom */
 .header-video{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .torito-home{
     width: 4rem;
@@ -12,7 +12,7 @@
     letter-spacing: 1.5px
 }
 .texto-video span{
-    color:#9ec139;
+    color:#12b870;
     font-size: 1.6rem;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
@@ -172,7 +172,7 @@ header video{
     line-height: 30px;
     background: transparent;
     border-radius: 50%;
-    color: #9ec139;
+    color: #12b870;
     font-size: 16px;
     margin: 0 2px 0 0;
     display: inline-block;
@@ -192,7 +192,7 @@ header video{
     left: -1px;
     right: -1px;
     bottom: -1px;
-    background-color: #9ec139;
+    background-color: #12b870;
     border-radius: 50%;
     opacity: 0;
     visibility: hidden;
@@ -229,7 +229,7 @@ header video{
 }
 
 .redboa-menu-copyright p a {
-    color: #9ec139;
+    color: #12b870;
 }
 
 @-webkit-keyframes menuFadeInRight {
@@ -274,7 +274,7 @@ header video{
     height: 100%;
     z-index: 9999999;
     overflow-y: auto;
-    background-color: #000;
+    background-color: #12b870;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -382,7 +382,7 @@ header video{
     font-weight: 400;
     font-size: 49px;
     line-height: 1.5em;
-    color: #9ec139;
+    color: #12b870;
 }
 
 .redboa-fixed-sidebar .logo a span {
@@ -438,7 +438,7 @@ header video{
 }
 
 .redboa-footer-sidebar h6 {
-    color: #9ec139;
+    color: #12b870;
     font-size: 28px;
 }
 
@@ -466,16 +466,16 @@ header video{
 }
 
 .redboa-menu-fixed ul li a b {
-     color: #9ec139!important;
+     color: #12b870!important;
 }
 
 .redboa-menu-fixed > ul > li.current-menu > a,
 .redboa-menu-fixed ul li:hover > a {
-    color: #9ec139 !important;
+    color: #18512f !important;
 }
 .redboa-menu-fixed > ul > li.current-menu > a,
 .redboa-menu-fixed ul li:visited > a {
-    color: #9ec139 !important;
+    color: #12b870 !important;
 }
 
 .redboa-menu-fixed > ul {
@@ -497,7 +497,9 @@ header video{
     font-weight: 500;
     color: #fff;
 }
-
+/* .redboa-menu-fixed > ul > li > a:hover{
+    color: #7dfa96
+} */
 .redboa-menu-fixed > ul ul {
     display: none;
     opacity: 0;
