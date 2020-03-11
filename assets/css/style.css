@@ -1842,3 +1842,19 @@ footer img {
         padding-right: 3rem;
     }
 }
+
+/*.scroll-div{
+	max-height:400px!important; 
+	overflow-x: hidden!important;
+    overflow-y: scroll!important; 
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+
+}*/
+
+.hide{
+    display:none
+}
+.show{
+    display: block;
+}
