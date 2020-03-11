@@ -66,21 +66,31 @@ $message1 = '<div><p>Pronto nos estaremos contactando con usted<p><table><tr><td
 $message2 = '<div><p>Hay una persona que quiere contactarse con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email</td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
 
 echo '<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Mensaje de confirmación</title>
 </head>
-<body style="background: #a0ce4e">
-   <div style="position: center;
-   background: white;
-   border: 1px solid #398b87;
-   padding: 50px;">  
-   <img style="display:block;
-   margin:auto; width: 80%; height : 40%" src="images/logo-qoppa.png" alt="">
-	<p style="text-align:center;font-size:20px">Revisaremos su solicitud y le estaremos respondiendo a la mayor brevedad posible.</p>
-    <a href="index.html" style="font-size:20px">Regresar a página principal</a>
+<body style="background: #1b1b1a">
+   <div style="    top: 50%;
+   left: 50%;
+   width: 80%;
+   position: relative;
+   transform: translate(-50%,-50%);
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;">  
+   <img style="margin:auto; width: 30%; height : auto" src="assets/img/logo-mafrox.svg"alt="">
+	<p style="text-align:center;font-size:1rem; padding: 1rem; text-transform: uppercase; font-weight: 600">Gracias por contactarte con nosotros, <br>revisaremos su solicitud y le estaremos respondiendo a la mayor brevedad posible.</p>
+    <a href="index.html" style="font-size: 1rem;
+    background-color: #12b870;
+    width: 23%;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: .2em;">Regresar a página principal</a>
 	</div>
 </body>
 </html>';
