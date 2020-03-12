@@ -61,9 +61,9 @@ $subject1 = 'Mensaje Automático'.$_POST['subject'];
 $subject2 = 'Contáctanos-Mafrox'.$_POST['subject'];
 
 
-$message1 = '<div><p>Pronto nos estaremos contactando con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email</td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
+$message1 = '<div><p>Pronto nos estaremos contactando con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr><br><tr><td>Email</td><td>'.$_POST['email'].'</td></tr><br><tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr><br></table></div>';
 
-$message2 = '<div><p>Hay una persona que quiere contactarse con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email</td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
+$message2 = '<div><p>Hay una persona que quiere contactarse con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr><br><tr><td>Email</td><td>'.$_POST['email'].'</td></tr><br><tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr><br></table></div>';
 
 echo '<!DOCTYPE html>
 <html lang="es">
