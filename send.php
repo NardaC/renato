@@ -53,23 +53,24 @@ if ( ! isset($_POST['email']) ) {
 }
 
 // Construimos el mensaje
-$to= 'judith@henribarrett.com';
-$reply1 = 'gracias@mafrox.com';
+$to= 'contacto@mafrox.com';
+$reply1 = 'no-responder@mafrox.com';
 $reply2 = 'contactanos@mafrox.com';
 $user_email = $_POST['email'];
-$subject1 = 'Mensaje Automático'.$_POST['subject'];
+$subject1 = 'Web Mafrox'.$_POST['subject'];
 $subject2 = 'Contáctanos-Mafrox'.$_POST['subject'];
 
 
-$message1 = '<div><p>Pronto nos estaremos contactando con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email</td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
+$message1 = '<div><p>Pronto nos estaremos contactando con usted<p><table><tr><td>Nombre: </td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email: </td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje: </td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
 
-$message2 = '<div><p>Hay una persona que quiere contactarse con usted<p><table><tr><td>Nombre</td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email</td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje</td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
+$message2 = '<div><p>Hay una persona que quiere contactarse con usted<p><table><tr><td>Nombre: </td><td>'.$_POST['name'].'</td></tr>\n<tr><td>Email: </td><td>'.$_POST['email'].'</td></tr>\n<tr><td>Mensaje: </td><td>'.$_POST['message'].'</td></tr>\n</table></div>';
 
 echo '<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/fabicon_mafrox.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Mensaje de confirmación</title>
 </head>
@@ -83,7 +84,7 @@ echo '<!DOCTYPE html>
    flex-direction: column;
    text-align: center;
    justify-content: center;">  
-   <img style="margin:auto; width: 30%; height : auto" src="assets/img/logo-mafrox.svg"alt="">
+   <img style="margin:auto; width: 30%; height : auto" src="./assets/img/logo-mafrox.svg" alt="">
 	<p style="text-align:center;font-size:1rem; padding: 1rem; text-transform: uppercase; font-weight: 600">Gracias por contactarte con nosotros, <br>revisaremos su solicitud y le estaremos respondiendo a la mayor brevedad posible.</p>
     <a href="index.html" style="font-size: 1rem;
     background-color: #12b870;
