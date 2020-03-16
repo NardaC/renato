@@ -1884,3 +1884,29 @@ footer img {
  .w-30{
      width: 12rem;
  }
+
+ .scroll{
+    
+    height: 430px;
+    overflow-y: scroll!important;
+ }
+
+
+/* =======  Scrollbar 2 ======= */
+
+.scroll::-webkit-scrollbar {
+    width: 15px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #0bd17b;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #12b870;
+}
+
