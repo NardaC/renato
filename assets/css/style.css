@@ -1856,3 +1856,31 @@ footer img {
 .show{
     display: block;
 }
+
+.custom-counter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #12b870;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+  
+ .w-30{
+     width: 12rem;
+ }
