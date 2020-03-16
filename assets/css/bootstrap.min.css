@@ -5968,7 +5968,7 @@ button.close {
 
 .modal-header .close {
     padding: 1rem;
-    margin: -1rem -1rem -1rem auto
+    margin: -1rem -1rem -1rem -1rem
 }
 
 .modal-title {
@@ -6922,6 +6922,8 @@ button.bg-dark:hover {
 }
 
 @media (min-width:992px) {
+    .modal-dialog {
+        max-width: 60%;}
     .d-lg-none {
         display: none !important
     }
