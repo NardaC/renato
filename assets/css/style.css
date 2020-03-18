@@ -29,7 +29,7 @@ p {
     font-size: 15px;
     line-height: 1.75em;
     font-weight: 400;
-    color: #999;
+    color: #fff;
     margin-bottom: 15px;
 }
 
@@ -835,7 +835,7 @@ section#menu{
           transform: translateY(0);
 }
 .portfolio .item-img h6 {
-  font-weight: 400;
+  font-weight: 500;
   position: relative;
   margin-bottom: 0px;
   -webkit-transform: translateY(-15px);
@@ -850,7 +850,7 @@ section#menu{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   opacity: 0;
   -webkit-transition: all .5s;

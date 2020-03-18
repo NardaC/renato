@@ -308,7 +308,7 @@ header video{
 }
 
 .redboa-fixed-sidebar + .redboa-burger-menu {
-    z-index: 110;
+    z-index: 115;
 }
 
 .redboa-sidebar-left + .redboa-burger-menu {
